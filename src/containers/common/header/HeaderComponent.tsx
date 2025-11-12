@@ -12,7 +12,7 @@ const HeaderComponent: React.FC<Props> = ({ auth, onLogout }) => {
             <div className='headerContainer'>
                 <div className="headerWraper">
 
-                    <div className="logo"><img src="/images/ek_logo.png" alt=''></img></div>
+                    <div className="logo"><img src="/images/logo.png" alt=''></img></div>
                     <div className="button">{auth ? <button className={`btn ${auth ? 'logout' : ''}`} onClick={onLogout}>Logout</button> : <Link to='/' className={`btn ${auth ? '' : 'login'}`}>login</Link>}</div>
                 </div>
 
