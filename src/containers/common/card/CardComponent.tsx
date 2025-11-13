@@ -113,7 +113,7 @@ const CardComponent: React.FC<Props> = ({ items, selectItem, dragItem, onDrop, v
                             </div>
                             {/* <div>{select_modelname(item.itemName)}</div> */}
                             <div>{item.id}</div>
-                            <div>{item.itemName}</div>
+                            <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>{item.itemName}</div>
                             {/* {item.type !== 'SET' && <div>{item.unit === '\\' ? '￦' : item.unit}{item.im_price}</div>} */}
                             {item.type !== 'SET' &&
                                 <>

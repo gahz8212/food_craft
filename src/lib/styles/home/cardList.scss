@@ -7,12 +7,12 @@
 
   .infos {
     width: 150px;
-    height: 180px;
+    height: 150px;
     position: relative;
     margin: 0.6rem;
     cursor: pointer;
     box-sizing: border-box;
-    // border-radius: 8px;
+    border-radius: 50%;
     position: relative;
 
     &:hover {
@@ -65,6 +65,7 @@
         animation: selectedItem-float infinite 1s linear;
       }
     }
+    //곡물,육류,채소,양념,
     &.SET {
       border: 5px solid green;
     }
@@ -112,7 +113,7 @@
           bottom: 0;
           left: 0;
           display: flex;
-          justify-content: space-between;
+          justify-content: center;
           width: 100%;
           .edit,
           .check,
@@ -132,7 +133,7 @@
       align-items: center;
       img {
         // height: 100%;
-        width: 100%;
+        width: 50%;
         object-fit: fill;
       }
       .undo {
